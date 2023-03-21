@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spring23E1App</string>
+    <string name="uni_title">University of Central Punjab</string>
+    <string name="cs_dept">CS Dept</string>
+    <string name="se_dept">SE Dept</string>
+    <string name="adp_dept">ADP Dept</string>
+    <string name="developed_for_e1">Developed for E1</string>
+</resources>
