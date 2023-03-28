@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lecture5.Lec5Activity">
+
+    <EditText
+        style="@style/edit_text_theme"
+        android:id="@+id/first_value_et"
+        android:hint="@string/first_value_et_hint"
+        />
+
+    <EditText
+        style="@style/edit_text_theme"
+        android:id="@+id/second_value_et"
+        android:hint="@string/second_value_et_hint"
+        android:layout_below="@id/first_value_et"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/magic_btn"
+        android:text="@string/do_the_magic"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/second_value_et"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_tv"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/magic_btn"
+        android:text="@string/result_tv"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

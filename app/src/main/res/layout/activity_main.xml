@@ -24,6 +24,7 @@
         android:src="@drawable/ucp"
         android:layout_centerInParent="true"
         android:layout_below="@id/title_tv"
+        android:contentDescription="@string/uni_logo_des"
         />
 
 
@@ -43,6 +44,7 @@
             android:id="@+id/cs_btn"
             android:text="@string/cs_dept"
             android:layout_marginEnd="5dp"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
         <Button
@@ -51,6 +53,7 @@
             android:id="@+id/se_btn"
             android:text="@string/se_dept"
             android:layout_marginEnd="5dp"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
         <Button
@@ -58,6 +61,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/adp_btn"
             android:text="@string/adp_dept"
+            style="?android:attr/buttonBarButtonStyle"
             />
     </LinearLayout>
 

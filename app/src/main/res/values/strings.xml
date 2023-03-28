@@ -5,4 +5,9 @@
     <string name="se_dept">SE Dept</string>
     <string name="adp_dept">ADP Dept</string>
     <string name="developed_for_e1">Developed for E1</string>
+    <string name="uni_logo_des">University Logo Image</string>
+    <string name="first_value_et_hint">Enter the first value here</string>
+    <string name="second_value_et_hint">Enter the second value here</string>
+    <string name="result_tv">Result:</string>
+    <string name="do_the_magic">Do the magic</string>
 </resources>
