@@ -10,4 +10,5 @@
     <string name="second_value_et_hint">Enter the second value here</string>
     <string name="result_tv">Result:</string>
     <string name="do_the_magic">Do the magic</string>
+    <string name="magic_tv_text">Start Magic Activity</string>
 </resources>

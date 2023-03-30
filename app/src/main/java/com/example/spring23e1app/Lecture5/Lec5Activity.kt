@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
+import com.example.spring23e1app.MainActivity
 import com.example.spring23e1app.R
 
 class Lec5Activity : AppCompatActivity() {
@@ -31,15 +33,21 @@ class Lec5Activity : AppCompatActivity() {
             }
             else if(firstValueET.text.toString().isEmpty())
             {
+                Toast.makeText(MainActivity@this, "Please enter the value in first et"
+                    , Toast.LENGTH_SHORT).show()
 
+                firstValueET.requestFocus()
             }
             else if(secondVlaueET.text.toString().isEmpty())
             {
+                Toast.makeText(MainActivity@this, "Please enter the value in second et"
+                    , Toast.LENGTH_SHORT).show()
 
+                secondVlaueET.requestFocus()
             }
             else
             {
-
+                Toast.makeText(this, "Please check your code!!!", Toast.LENGTH_SHORT).show();
             }
         }
     }
