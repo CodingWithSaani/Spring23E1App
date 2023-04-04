@@ -11,4 +11,8 @@
     <string name="result_tv">Result:</string>
     <string name="do_the_magic">Do the magic</string>
     <string name="magic_tv_text">Start Magic Activity</string>
+    <string name="lecture_78">Lecture 78</string>
+    <string name="enter_your_name">Enter your name here</string>
+    <string name="enter_your_email">Enter your email here</string>
+    <string name="check_name_btn">Check Name</string>
 </resources>

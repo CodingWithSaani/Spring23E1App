@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Spring23E1App"
         tools:targetApi="31">
         <activity
+            android:name=".Lecture78.Lecture78cActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lecture78.Lecture78Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Lecture78.Lecture78aActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lecture5.Lec5Activity"
             android:exported="false" />
         <activity

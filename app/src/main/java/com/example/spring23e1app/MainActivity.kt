@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.spring23e1app.Lecture5.Lec5Activity
+import com.example.spring23e1app.Lecture78.Lecture78Activity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.start_screen_btn).setOnClickListener {
             //val intent = Intent(MainActivity@this,Lec5Activity::class.java)
             startActivity(Intent(MainActivity@this,Lec5Activity::class.java))
+
+        }
+
+        findViewById<Button>(R.id.lecture78_btn).setOnClickListener {
+            //val intent = Intent(MainActivity@this,Lec5Activity::class.java)
+            startActivity(Intent(MainActivity@this,Lecture78Activity::class.java))
 
         }
     }
