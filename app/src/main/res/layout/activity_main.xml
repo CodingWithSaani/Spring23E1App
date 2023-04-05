@@ -83,6 +83,15 @@
         android:text="@string/lecture_78"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecture78_a_btn"
+        android:layout_below="@id/lecture78_btn"
+        android:layout_centerInParent="true"
+        android:text="@string/lecture_78_a"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
