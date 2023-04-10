@@ -16,4 +16,7 @@
     <string name="enter_your_email">Enter your email here</string>
     <string name="check_name_btn">Check Name</string>
     <string name="lecture_78_a">Lecture 7 8 a</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lecture_1011">Lecture 10 11</string>
 </resources>

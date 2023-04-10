@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.spring23e1app.Lecture1011.Lecture1011Activity
 import com.example.spring23e1app.Lecture5.Lec5Activity
 import com.example.spring23e1app.Lecture78.Lecture78Activity
 import com.example.spring23e1app.Lecture78.Lecture78aActivity
@@ -28,6 +29,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.lecture78_a_btn).setOnClickListener {
             //val intent = Intent(MainActivity@this,Lec5Activity::class.java)
             startActivity(Intent(MainActivity@this,Lecture78aActivity::class.java))
+
+        }
+
+        findViewById<Button>(R.id.lecture1011_btn).setOnClickListener {
+            //val intent = Intent(MainActivity@this,Lec5Activity::class.java)
+            startActivity(Intent(MainActivity@this,Lecture1011Activity::class.java))
 
         }
     }
